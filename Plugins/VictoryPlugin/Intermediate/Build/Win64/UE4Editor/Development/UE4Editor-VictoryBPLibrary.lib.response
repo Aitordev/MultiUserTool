@@ -1,0 +1,26 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-VictoryBPLibrary.dll"
+/IGNORE:4221
+/LIBPATH:"ThirdParty/PhysX/Lib/Win64/VS2015"
+/LIBPATH:"ThirdParty/PhysX/Lib/Win64/VS2015"
+/NODEFAULTLIB:"LIBCMT"
+/NODEFAULTLIB:"LIBCPMT"
+/NODEFAULTLIB:"LIBCMTD"
+/NODEFAULTLIB:"LIBCPMTD"
+/NODEFAULTLIB:"MSVCRTD"
+/NODEFAULTLIB:"MSVCPRTD"
+/NODEFAULTLIB:"LIBC"
+/NODEFAULTLIB:"LIBCP"
+/NODEFAULTLIB:"LIBCD"
+/NODEFAULTLIB:"LIBCPD"
+"F:\MultiUserToolrotoNew 4.15\Plugins\VictoryPlugin\Intermediate\Build\Win64\UE4Editor\Development\VictoryBPLibrary\PCH.VictoryBPLibrary.h.obj"
+"F:\MultiUserToolrotoNew 4.15\Plugins\VictoryPlugin\Intermediate\Build\Win64\UE4Editor\Development\VictoryBPLibrary\Module.VictoryBPLibrary.cpp.obj"
+"F:\MultiUserToolrotoNew 4.15\Plugins\VictoryPlugin\Intermediate\Build\Win64\UE4Editor\Development\VictoryBPLibrary\VictoryBPLibrary.generated.1.cpp.obj"
+"F:\MultiUserToolrotoNew 4.15\Plugins\VictoryPlugin\Intermediate\Build\Win64\UE4Editor\Development\VictoryBPLibrary\VictoryBPLibrary.generated.2.cpp.obj"
+"C:\Program Files\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Development\VictoryBPLibrary\PCLaunch.rc.res"
+"C:\Program Files\Epic Games\UE_4.15\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"F:\MultiUserToolrotoNew 4.15\Plugins\VictoryPlugin\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-VictoryBPLibrary.lib"

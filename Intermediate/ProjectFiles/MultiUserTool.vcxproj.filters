@@ -1,0 +1,592 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\MultiUserTool.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{65311259-F52B-462F-A7E3-DBA0DC5BE723}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MultiUserTool.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\MultiUserToolEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{4E621D5B-3EBD-46A5-917A-D48572747051}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{2632B04C-3A7A-4F24-B39B-2032C6A5F546}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\AdvancedSessions">
+      <UniqueIdentifier>{9791D318-7AF3-4FED-8522-A711732CBB4B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\AdvancedSessions\AdvancedSessions">
+      <UniqueIdentifier>{8D80FBE0-BE34-4460-A3EA-7E8C62E87737}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\AdvancedSessions\AdvancedSessions\Source">
+      <UniqueIdentifier>{B76B4865-16B0-4D45-9D9E-9C99E26280A8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions">
+      <UniqueIdentifier>{848C990C-4F28-40A6-B624-CDB64AB8CB1B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\AdvancedSessions.Build.cs">
+      <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions</Filter>
+    </None>
+    <Filter Include="Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes">
+      <UniqueIdentifier>{49884A6C-F3A7-408C-88DE-2FF2D286ECEC}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\AdvancedExternalUILibrary.h">
+      <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\AdvancedFriendsGameInstance.h">
+      <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\AdvancedFriendsInterface.h">
+      <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\AdvancedFriendsLibrary.h">
+      <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\AdvancedIdentityLibrary.h">
+      <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\AdvancedSessions.h">
+      <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\AdvancedSessionsLibrary.h">
+      <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\AdvancedVoiceLibrary.h">
+      <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\BlueprintDataDefinitions.h">
+      <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\CancelFindSessionsCallbackProxy.h">
+      <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\CreateSessionCallbackProxyAdvanced.h">
+      <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\EndSessionCallbackProxy.h">
+      <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\FindFriendSessionCallbackProxy.h">
+      <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\FindSessionsCallbackProxyAdvanced.h">
+      <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\GetFriendsCallbackProxy.h">
+      <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\GetRecentPlayersCallbackProxy.h">
+      <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\GetUserPrivilegeCallbackProxy.h">
+      <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\LoginUserCallbackProxy.h">
+      <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\LogoutUserCallbackProxy.h">
+      <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\OnlineSubSystemHeader.h">
+      <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\SendFriendInviteCallbackProxy.h">
+      <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes\UpdateSessionCallbackProxyAdvanced.h">
+      <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Classes</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private">
+      <UniqueIdentifier>{59A2C3FA-E03B-4935-A439-E5EAC64F6958}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private\AdvancedExternalUILibrary.cpp">
+      <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private\AdvancedFriendsGameInstance.cpp">
+      <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private\AdvancedFriendsInterface.cpp">
+      <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private\AdvancedFriendsLibrary.cpp">
+      <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private\AdvancedIdentityLibrary.cpp">
+      <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private\AdvancedSessions.cpp">
+      <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private\AdvancedSessionsLibrary.cpp">
+      <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private\AdvancedVoiceLibrary.cpp">
+      <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private\CancelFindSessionsCallbackProxy.cpp">
+      <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private\CreateSessionCallbackProxyAdvanced.cpp">
+      <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private\EndSessionCallbackProxy.cpp">
+      <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private\FindFriendSessionCallbackProxy.cpp">
+      <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private\FindSessionsCallbackProxyAdvanced.cpp">
+      <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private\GetFriendsCallbackProxy.cpp">
+      <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private\GetRecentPlayersCallbackProxy.cpp">
+      <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private\GetUserPrivilegeCallbackProxy.cpp">
+      <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private\LoginUserCallbackProxy.cpp">
+      <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private\LogoutUserCallbackProxy.cpp">
+      <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private\SendFriendInviteCallbackProxy.cpp">
+      <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private\UpdateSessionCallbackProxyAdvanced.cpp">
+      <Filter>Plugins\AdvancedSessions\AdvancedSessions\Source\AdvancedSessions\Private</Filter>
+    </ClCompile>
+    <None Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\AdvancedSessions.uplugin">
+      <Filter>Plugins\AdvancedSessions\AdvancedSessions</Filter>
+    </None>
+    <Filter Include="Plugins\AdvancedSessions\AdvancedSessions\Resources">
+      <UniqueIdentifier>{A72C9F57-F82B-43CB-A505-00A776D4172E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AdvancedSessions\AdvancedSessions\Resources\Icon128.png">
+      <Filter>Plugins\AdvancedSessions\AdvancedSessions\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\AdvancedSessions\AdvancedSteamSessions">
+      <UniqueIdentifier>{21E5F9F9-B4BD-41A4-BA93-DAC98376F5EA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AdvancedSessions\AdvancedSteamSessions\AdvancedSteamSessions.uplugin">
+      <Filter>Plugins\AdvancedSessions\AdvancedSteamSessions</Filter>
+    </None>
+    <Filter Include="Plugins\AdvancedSessions\AdvancedSteamSessions\Resources">
+      <UniqueIdentifier>{BE94047C-455C-4F10-AE29-154B3B0D48D1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AdvancedSessions\AdvancedSteamSessions\Resources\Icon128.png">
+      <Filter>Plugins\AdvancedSessions\AdvancedSteamSessions\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\LoadingScreen-master">
+      <UniqueIdentifier>{86C8E155-817C-4D03-97C1-FC091DBC32C7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\LoadingScreen-master\LoadingScreen.uplugin">
+      <Filter>Plugins\LoadingScreen-master</Filter>
+    </None>
+    <Filter Include="Plugins\LoadingScreen-master\Resources">
+      <UniqueIdentifier>{D8DA41B2-112A-4953-B5C1-DB44B902C7D3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\LoadingScreen-master\Resources\Icon128.png">
+      <Filter>Plugins\LoadingScreen-master\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\VictoryPlugin">
+      <UniqueIdentifier>{150F8C1B-B895-4DB1-BE20-548EF10EA0D3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VictoryPlugin\VictoryBPLibrary.uplugin">
+      <Filter>Plugins\VictoryPlugin</Filter>
+    </None>
+    <Filter Include="Plugins\VictoryPlugin\Resources">
+      <UniqueIdentifier>{6BCE50B3-8A2A-4D88-92BC-74E6A39B8311}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VictoryPlugin\Resources\Icon128.png">
+      <Filter>Plugins\VictoryPlugin\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\VictoryPlugin\Resources\Thumbs.db">
+      <Filter>Plugins\VictoryPlugin\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\AdvancedSessions\AdvancedSteamSessions\Source">
+      <UniqueIdentifier>{6725C943-CDE4-48DE-BDD2-8021641152BD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions">
+      <UniqueIdentifier>{7B6ADECB-1A5B-4043-98C1-99BAC3278B2F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\AdvancedSteamSessions.Build.cs">
+      <Filter>Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions</Filter>
+    </None>
+    <Filter Include="Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes">
+      <UniqueIdentifier>{BB746603-D03D-494B-9A19-A7FE0DB1A532}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes\AdvancedSteamFriendsLibrary.h">
+      <Filter>Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes\AdvancedSteamSessions.h">
+      <Filter>Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes\AdvancedSteamWorkshopLibrary.h">
+      <Filter>Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes\SteamWSRequestUGCDetailsCallbackProxy.h">
+      <Filter>Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Classes</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private">
+      <UniqueIdentifier>{733F4895-48DF-4C6C-849B-CE117B8FF2DF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private\AdvancedSteamFriendsLibrary.cpp">
+      <Filter>Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private\AdvancedSteamSessions.cpp">
+      <Filter>Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private\AdvancedSteamWorkshopLibrary.cpp">
+      <Filter>Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private\SteamWSRequestUGCDetailsCallbackProxy.cpp">
+      <Filter>Plugins\AdvancedSessions\AdvancedSteamSessions\Source\AdvancedSteamSessions\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\LoadingScreen-master\Source">
+      <UniqueIdentifier>{19410A5A-E827-4EB7-8BEE-8017AB3FDC83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\LoadingScreen-master\Source\LoadingScreen">
+      <UniqueIdentifier>{29C04FED-615D-442C-8D12-738431DDC283}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\LoadingScreen-master\Source\LoadingScreen\LoadingScreen.Build.cs">
+      <Filter>Plugins\LoadingScreen-master\Source\LoadingScreen</Filter>
+    </None>
+    <Filter Include="Plugins\LoadingScreen-master\Source\LoadingScreen\Private">
+      <UniqueIdentifier>{554949E1-E508-4AE0-9AF1-62DB3027AF81}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\LoadingScreen-master\Source\LoadingScreen\Private\LoadingScreenModule.cpp">
+      <Filter>Plugins\LoadingScreen-master\Source\LoadingScreen\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\LoadingScreen-master\Source\LoadingScreen\Private\LoadingScreenPrivatePCH.h">
+      <Filter>Plugins\LoadingScreen-master\Source\LoadingScreen\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\LoadingScreen-master\Source\LoadingScreen\Private\LoadingScreenSettings.cpp">
+      <Filter>Plugins\LoadingScreen-master\Source\LoadingScreen\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\LoadingScreen-master\Source\LoadingScreen\Private\LoadingScreenSettings.h">
+      <Filter>Plugins\LoadingScreen-master\Source\LoadingScreen\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\LoadingScreen-master\Source\LoadingScreen\Private\SSimpleLoadingScreen.cpp">
+      <Filter>Plugins\LoadingScreen-master\Source\LoadingScreen\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\LoadingScreen-master\Source\LoadingScreen\Private\SSimpleLoadingScreen.h">
+      <Filter>Plugins\LoadingScreen-master\Source\LoadingScreen\Private</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\LoadingScreen-master\Source\LoadingScreen\Public">
+      <UniqueIdentifier>{6B45B9D0-8734-44E1-802C-AE8A617E9056}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\LoadingScreen-master\Source\LoadingScreen\Public\ILoadingScreenModule.h">
+      <Filter>Plugins\LoadingScreen-master\Source\LoadingScreen\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VictoryPlugin\Source">
+      <UniqueIdentifier>{AF5F784D-DCC0-4822-91D2-AFF979E87AF7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\VictoryPlugin\Source\VictoryBPLibrary">
+      <UniqueIdentifier>{5CD45920-4BD2-4ED1-BAF0-53EB9D15C85E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\VictoryPlugin\Source\VictoryBPLibrary\VictoryBPLibrary.Build.cs">
+      <Filter>Plugins\VictoryPlugin\Source\VictoryBPLibrary</Filter>
+    </None>
+    <Filter Include="Plugins\VictoryPlugin\Source\VictoryBPLibrary\Private">
+      <UniqueIdentifier>{786196C0-361E-46AB-9302-17CFACD2BE8E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\VictoryPlugin\Source\VictoryBPLibrary\Private\TKMathFunctionLibrary.cpp">
+      <Filter>Plugins\VictoryPlugin\Source\VictoryBPLibrary\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VictoryPlugin\Source\VictoryBPLibrary\Private\VictoryBPFunctionLibrary.cpp">
+      <Filter>Plugins\VictoryPlugin\Source\VictoryBPLibrary\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VictoryPlugin\Source\VictoryBPLibrary\Private\VictoryBPFunctionLibrary_WinOS.cpp">
+      <Filter>Plugins\VictoryPlugin\Source\VictoryBPLibrary\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VictoryPlugin\Source\VictoryBPLibrary\Private\VictoryBPHTML.cpp">
+      <Filter>Plugins\VictoryPlugin\Source\VictoryBPLibrary\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\VictoryPlugin\Source\VictoryBPLibrary\Private\VictoryBPLibrary.cpp">
+      <Filter>Plugins\VictoryPlugin\Source\VictoryBPLibrary\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VictoryPlugin\Source\VictoryBPLibrary\Private\VictoryBPLibraryPrivatePCH.h">
+      <Filter>Plugins\VictoryPlugin\Source\VictoryBPLibrary\Private</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\VictoryPlugin\Source\VictoryBPLibrary\Public">
+      <UniqueIdentifier>{24FA3758-E49A-4728-A600-EAC77F622D6E}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\VictoryPlugin\Source\VictoryBPLibrary\Public\TKMathFunctionLibrary.h">
+      <Filter>Plugins\VictoryPlugin\Source\VictoryBPLibrary\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VictoryPlugin\Source\VictoryBPLibrary\Public\VictoryBPFunctionLibrary.h">
+      <Filter>Plugins\VictoryPlugin\Source\VictoryBPLibrary\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VictoryPlugin\Source\VictoryBPLibrary\Public\VictoryBPHTML.h">
+      <Filter>Plugins\VictoryPlugin\Source\VictoryBPLibrary\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\VictoryPlugin\Source\VictoryBPLibrary\Public\VictoryBPLibrary.h">
+      <Filter>Plugins\VictoryPlugin\Source\VictoryBPLibrary\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VictoryPlugin\Source\VictoryBPLibrary\Public\VictoryISM.cpp">
+      <Filter>Plugins\VictoryPlugin\Source\VictoryBPLibrary\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VictoryPlugin\Source\VictoryBPLibrary\Public\VictoryISM.h">
+      <Filter>Plugins\VictoryPlugin\Source\VictoryBPLibrary\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VictoryPlugin\Source\VictoryBPLibrary\Public\VictoryPC.cpp">
+      <Filter>Plugins\VictoryPlugin\Source\VictoryBPLibrary\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VictoryPlugin\Source\VictoryBPLibrary\Public\VictoryPC.h">
+      <Filter>Plugins\VictoryPlugin\Source\VictoryBPLibrary\Public</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\VictoryPlugin\Source\VictoryBPLibrary\Public\VictoryTMapComp.cpp">
+      <Filter>Plugins\VictoryPlugin\Source\VictoryBPLibrary\Public</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\VictoryPlugin\Source\VictoryBPLibrary\Public\VictoryTMapComp.h">
+      <Filter>Plugins\VictoryPlugin\Source\VictoryBPLibrary\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\MultiUserTool">
+      <UniqueIdentifier>{F49351C0-130E-4375-8830-9182A4B2DA97}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MultiUserTool\BillboardingMeshComponent.cpp">
+      <Filter>Source\MultiUserTool</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MultiUserTool\BillboardingMeshComponent.h">
+      <Filter>Source\MultiUserTool</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MultiUserTool\CodeGeneratedNeuron.cpp">
+      <Filter>Source\MultiUserTool</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MultiUserTool\CodeGeneratedNeuron.h">
+      <Filter>Source\MultiUserTool</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MultiUserTool\Funciones.cpp">
+      <Filter>Source\MultiUserTool</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MultiUserTool\Funciones.h">
+      <Filter>Source\MultiUserTool</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MultiUserTool\ImpostorNeuronForest.cpp">
+      <Filter>Source\MultiUserTool</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MultiUserTool\ImpostorNeuronForest.h">
+      <Filter>Source\MultiUserTool</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MultiUserTool\IndexedMesh.cpp">
+      <Filter>Source\MultiUserTool</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MultiUserTool\IndexedMesh.h">
+      <Filter>Source\MultiUserTool</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MultiUserTool\LightControls.cpp">
+      <Filter>Source\MultiUserTool</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MultiUserTool\LightControls.h">
+      <Filter>Source\MultiUserTool</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MultiUserTool\Local.cpp">
+      <Filter>Source\MultiUserTool</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MultiUserTool\Local.h">
+      <Filter>Source\MultiUserTool</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\MultiUserTool\MeshBuilder.cpp.old">
+      <Filter>Source\MultiUserTool</Filter>
+    </None>
+    <None Include="..\..\Source\MultiUserTool\MeshBuilder.h.old">
+      <Filter>Source\MultiUserTool</Filter>
+    </None>
+    <None Include="..\..\Source\MultiUserTool\MultiUserTool.Build.cs">
+      <Filter>Source\MultiUserTool</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\MultiUserTool\MultiUserTool.cpp">
+      <Filter>Source\MultiUserTool</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MultiUserTool\MultiUserTool.h">
+      <Filter>Source\MultiUserTool</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MultiUserTool\MultiUserToolGameMode.cpp">
+      <Filter>Source\MultiUserTool</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MultiUserTool\MultiUserToolGameMode.h">
+      <Filter>Source\MultiUserTool</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MultiUserTool\MyBillboardingMeshComponent.cpp">
+      <Filter>Source\MultiUserTool</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MultiUserTool\MyBillboardingMeshComponent.h">
+      <Filter>Source\MultiUserTool</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MultiUserTool\MyHUD.cpp">
+      <Filter>Source\MultiUserTool</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MultiUserTool\MyHUD.h">
+      <Filter>Source\MultiUserTool</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MultiUserTool\MyPaperSpriteActor.cpp">
+      <Filter>Source\MultiUserTool</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MultiUserTool\MyPaperSpriteActor.h">
+      <Filter>Source\MultiUserTool</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MultiUserTool\MyPawn.cpp">
+      <Filter>Source\MultiUserTool</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MultiUserTool\MyPawn.h">
+      <Filter>Source\MultiUserTool</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MultiUserTool\MyRendererSettings.cpp">
+      <Filter>Source\MultiUserTool</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MultiUserTool\MyRendererSettings.h">
+      <Filter>Source\MultiUserTool</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MultiUserTool\MyWidget.cpp">
+      <Filter>Source\MultiUserTool</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MultiUserTool\MyWidget.h">
+      <Filter>Source\MultiUserTool</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MultiUserTool\Navigator.cpp">
+      <Filter>Source\MultiUserTool</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MultiUserTool\Navigator.h">
+      <Filter>Source\MultiUserTool</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MultiUserTool\NavigatorHUD.cpp">
+      <Filter>Source\MultiUserTool</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MultiUserTool\NavigatorHUD.h">
+      <Filter>Source\MultiUserTool</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MultiUserTool\Neuron.cpp">
+      <Filter>Source\MultiUserTool</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MultiUserTool\Neuron.h">
+      <Filter>Source\MultiUserTool</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MultiUserTool\NeuronForest.cpp">
+      <Filter>Source\MultiUserTool</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MultiUserTool\NeuronForest.h">
+      <Filter>Source\MultiUserTool</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MultiUserTool\SlateChat.cpp">
+      <Filter>Source\MultiUserTool</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MultiUserTool\SlateChat.h">
+      <Filter>Source\MultiUserTool</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MultiUserTool\XGameState.cpp">
+      <Filter>Source\MultiUserTool</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MultiUserTool\XGameState.h">
+      <Filter>Source\MultiUserTool</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MultiUserTool\XPlayerController.cpp">
+      <Filter>Source\MultiUserTool</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MultiUserTool\XPlayerController.h">
+      <Filter>Source\MultiUserTool</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MultiUserTool\XPlayerState.cpp">
+      <Filter>Source\MultiUserTool</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MultiUserTool\XPlayerState.h">
+      <Filter>Source\MultiUserTool</Filter>
+    </ClInclude>
+    <Filter Include="Source\MultiUserTool\Private">
+      <UniqueIdentifier>{CCDBC51A-C2DC-4765-91F5-140C9971D5BC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MultiUserTool\Private\DBFunctions.cpp">
+      <Filter>Source\MultiUserTool\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MultiUserTool\Private\MyAdvancedFriendsGameInstance.cpp">
+      <Filter>Source\MultiUserTool\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MultiUserTool\Private\MyBlueprintFunctionLibrary.cpp">
+      <Filter>Source\MultiUserTool\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MultiUserTool\Private\MyCharacter.cpp">
+      <Filter>Source\MultiUserTool\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MultiUserTool\Private\MyDefaultPawn.cpp">
+      <Filter>Source\MultiUserTool\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MultiUserTool\Private\MyUserWidgetNeuron.cpp">
+      <Filter>Source\MultiUserTool\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MultiUserTool\Private\NetPawn.cpp">
+      <Filter>Source\MultiUserTool\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MultiUserTool\Private\SlateNeuronMenuWidgetStyle.cpp">
+      <Filter>Source\MultiUserTool\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\MultiUserTool\Public">
+      <UniqueIdentifier>{49402CA4-510D-4EA4-A74E-28C02250D442}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\MultiUserTool\Public\DBFunctions.h">
+      <Filter>Source\MultiUserTool\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MultiUserTool\Public\MyAdvancedFriendsGameInstance.h">
+      <Filter>Source\MultiUserTool\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MultiUserTool\Public\MyBlueprintFunctionLibrary.h">
+      <Filter>Source\MultiUserTool\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MultiUserTool\Public\MyCharacter.h">
+      <Filter>Source\MultiUserTool\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MultiUserTool\Public\MyDefaultPawn.h">
+      <Filter>Source\MultiUserTool\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MultiUserTool\Public\MyUserWidgetNeuron.h">
+      <Filter>Source\MultiUserTool\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MultiUserTool\Public\NetPawn.h">
+      <Filter>Source\MultiUserTool\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MultiUserTool\Public\SlateNeuronMenuWidgetStyle.h">
+      <Filter>Source\MultiUserTool\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\MultiUserTool\Public\MyActorNotification.h">
+      <Filter>Source\MultiUserTool\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MultiUserTool\Public\MyUserWidgetNeuronInfo.h">
+      <Filter>Source\MultiUserTool\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\MultiUserTool\Private\MyActorNotification.cpp">
+      <Filter>Source\MultiUserTool\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MultiUserTool\Private\MyUserWidgetNeuronInfo.cpp">
+      <Filter>Source\MultiUserTool\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

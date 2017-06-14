@@ -1,0 +1,8 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+"F:\MultiUserToolrotoNew 4.15\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UE4\Development\AdvancedSessions\PCH.AdvancedSessions.h.obj"
+"F:\MultiUserToolrotoNew 4.15\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UE4\Development\AdvancedSessions\Module.AdvancedSessions.cpp.obj"
+"F:\MultiUserToolrotoNew 4.15\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UE4\Development\AdvancedSessions\AdvancedSessions.generated.cpp.obj"
+/OUT:"F:\MultiUserToolrotoNew 4.15\Plugins\AdvancedSessions\AdvancedSessions\Binaries\Win64\UE4-AdvancedSessions.lib"

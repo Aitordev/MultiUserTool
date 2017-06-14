@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<CrashGUID>UE4CC-Windows-78BD45C14C3C29800642CFBA7C473078_0001</CrashGUID>
+		<ProcessId>8056</ProcessId>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<IsEnsure>false</IsEnsure>
+		<IsAssert>true</IsAssert>
+		<CrashType>Assert</CrashType>
+		<SecondsSinceStart>34</SecondsSinceStart>
+		<GameName>UE4-MultiUserTool</GameName>
+		<ExecutableName>UE4Editor</ExecutableName>
+		<BuildConfiguration>Development</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>Windows</PlatformName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Game</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>4.15.3-3450819+++UE4+Release-4.15</EngineVersion>
+		<CommandLine>&quot;F:/MultiUserToolrotoNew 4.15/MultiUserTool.uproject&quot; /Temp/Autosaves/Game/Maps/UEDPCLogin?Listen -game -PIEVIACONSOLE -ResX=1280 -ResY=720 -Multiprocess -messaging -SessionName=&quot;Play in Standalone Game&quot; -windowed GameUserSettingsINI=&quot;F:/MultiUserToolrotoNew 4.15/Saved/Config/Windows/PIEGameUserSettings0.ini&quot; -MultiprocessSaveConfig -MultiprocessOSS WinX=8 WinY=31 SAVEWINPOS=1</CommandLine>
+		<LanguageLCID>3082</LanguageLCID>
+		<AppDefaultLocale>es_ES</AppDefaultLocale>
+		<BuildVersion>++UE4+Release-4.15-CL-3450819</BuildVersion>
+		<IsUE4Release>true</IsUE4Release>
+		<UserName>aitor</UserName>
+		<BaseDir>C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/</BaseDir>
+		<RootDir>C:/Program Files/Epic Games/UE_4.15/</RootDir>
+		<MachineId>7081628543139FE73713389D0339D17C</MachineId>
+		<LoginId>7081628543139fe73713389d0339d17c</LoginId>
+		<EpicAccountId>d3becb8f38f04c839adebfe083f64c2c</EpicAccountId>
+		<CallStack />
+		<SourceContext />
+		<UserDescription />
+		<UserActivityHint />
+		<ErrorMessage>Assertion failed: IsValid() [File:c:\program files\epic games\ue_4.15\engine\source\runtime\core\public\Templates/SharedPointer.h] [Line: 837] &nl;&nl;</ErrorMessage>
+		<CrashDumpMode>0</CrashDumpMode>
+		<CrashReporterMessage />
+		<Misc.NumberOfCores>4</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>8</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>AuthenticAMD</Misc.CPUVendor>
+		<Misc.CPUBrand>AMD FX(tm)-8350 Eight-Core Processor</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>NVIDIA GeForce GTX 1060 6GB</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 10</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<MemoryStats.TotalPhysical>8532606976</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>65536</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>8</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>3656982528</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>140733530464256</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>876830720</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>879640576</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>3206823936</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>3221221376</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<TimeOfCrash>636327814244630000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Win64 [Windows 10  64b]</PlatformFullName>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+	</PlatformProperties>
+</FGenericCrashContext>

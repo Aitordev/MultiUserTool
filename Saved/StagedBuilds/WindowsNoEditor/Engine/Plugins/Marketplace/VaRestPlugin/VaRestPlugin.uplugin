@@ -1,0 +1,30 @@
+{
+	"FileVersion" : 3,
+	"Version" : 16,
+	"VersionName" : "1.1-r16",
+	"FriendlyName" : "VaRest",
+	"Description" : "Plugin that makes REST (JSON) server communication easy to use",
+	"Category" : "Network",
+	"CreatedBy" : "Vladimir Alyamkin",
+	"CreatedByURL" : "http://alyamkin.com",
+	"DocsURL" : "",
+	"MarketplaceURL" : "com.epicgames.launcher://ue/marketplace/content/e47be161e7a24e928560290abd5dcc4f",
+	"SupportURL" : "",
+	"CanContainContent" : false,
+	"IsBetaVersion" : false,
+	"Installed" : true,
+	"RequiresBuildPlatform" : false,
+	"Modules" :
+	[
+		{
+			"Name" : "VaRestPlugin",
+			"Type" : "Runtime",
+			"LoadingPhase" : "PreDefault"
+		},
+		{
+			"Name" : "VaRestEditorPlugin",
+			"Type" : "Developer",
+			"LoadingPhase" : "Default"
+		}
+	]
+}

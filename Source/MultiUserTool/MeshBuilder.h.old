@@ -1,0 +1,65 @@
+// Fill out your copyright notice in the Description page of Project Settings.
+
+#pragma once
+struct FMeshVertex {
+	FVector Position;
+	FVector2D TextureCoordinate;
+	FVector TangentX;
+	FVector TangentY;
+	FVector TangentZ;
+	FColor Color;
+};
+/**
+ * 
+ */
+class MULTIUSERTOOL_API FMeshBuilder
+{
+	public:
+
+		/** Initialization constructor. */
+		FMeshBuilder();
+
+		/** Destructor. */
+		~FMeshBuilder();
+
+		/** Adds a vertex to the mesh. */
+		int32 AddVertex(
+			const FVector& InPosition,
+			const FVector2D& InTextureCoordinate,
+			const FVector& InTangentX,
+			const FVector& InTangentY,
+			const FVector& InTangentZ,
+			const FColor& InColor
+		);
+
+		/** Adds a vertex to the mesh. */
+		int32 AddVertex(const FMeshVertex &InVertex);
+
+		/** Adds a triangle to the mesh. */
+		void AddTriangle(int32 V0, int32 V1, int32 V2);
+
+		/** Adds many vertices to the mesh. */
+		int32 AddVertices(const TArray<FMeshVertex> &InVertices);
+
+		/** Add many indices to the mesh. */
+		void AddTriangles(const TArray<int32> &InIndices);
+
+		/** Adds a mesh of what's been built so far to the collector. */
+		void GetMesh(const FMatrix& LocalToWorld, const FMaterialRenderProxy* MaterialRenderProxy, uint8 DepthPriorityGroup, bool bDisableBackfaceCulling, bool bReceivesDecals, int32 ViewIndex, FMeshElementCollector& Collector);
+		void GetMesh(const FMatrix& LocalToWorld, const FMaterialRenderProxy* MaterialRenderProxy, uint8 DepthPriorityGroup, bool bDisableBackfaceCulling, bool bReceivesDecals, bool bUseSelectionOutline, int32 ViewIndex,
+			FMeshElementCollector& Collector, HHitProxy* HitProxy);
+
+		/**
+		* Draws the mesh to the given primitive draw interface.
+		* @param PDI - The primitive draw interface to draw the mesh on.
+		* @param LocalToWorld - The local to world transform to apply to the vertices of the mesh.
+		* @param FMaterialRenderProxy - The material instance to render on the mesh.
+		* @param DepthPriorityGroup - The depth priority group to render the mesh in.
+		*/
+		void Draw(FPrimitiveDrawInterface* PDI, const FMatrix& LocalToWorld, const FMaterialRenderProxy* MaterialRenderProxy, uint8 DepthPriorityGroup, bool bDisableBackfaceCulling = false, bool bReceivesDecals = true);
+
+	private:
+		class FMeshIndexBuffer* IndexBuffer;
+		class FMeshVertexBuffer* VertexBuffer;
+};
+

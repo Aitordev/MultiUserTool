@@ -1,0 +1,9 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+"F:\MultiUserToolrotoNew 4.15\Plugins\VictoryPlugin\Intermediate\Build\Win64\UE4\Development\VictoryBPLibrary\PCH.VictoryBPLibrary.h.obj"
+"F:\MultiUserToolrotoNew 4.15\Plugins\VictoryPlugin\Intermediate\Build\Win64\UE4\Development\VictoryBPLibrary\Module.VictoryBPLibrary.cpp.obj"
+"F:\MultiUserToolrotoNew 4.15\Plugins\VictoryPlugin\Intermediate\Build\Win64\UE4\Development\VictoryBPLibrary\VictoryBPLibrary.generated.1.cpp.obj"
+"F:\MultiUserToolrotoNew 4.15\Plugins\VictoryPlugin\Intermediate\Build\Win64\UE4\Development\VictoryBPLibrary\VictoryBPLibrary.generated.2.cpp.obj"
+/OUT:"F:\MultiUserToolrotoNew 4.15\Plugins\VictoryPlugin\Binaries\Win64\UE4-VictoryBPLibrary.lib"
