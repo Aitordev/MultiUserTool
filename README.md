@@ -6,7 +6,7 @@ Also it has been developed is an infrastructure composed of a scientific visuali
 Finally, the result is a system that will provide researchers with the ability to collaborate in neuroscientific scene analysis studies within the Human Brain Project (HBP).
 
 ## Dissertation Link
-[Dissertation](Docs/Memoria.pdf)
+[Dissertation](Docs/Memoria.pdf) (text is in spanish)
 
 ## Some images
 ![alt text](Docs/img.png)
